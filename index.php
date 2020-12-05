@@ -2,16 +2,16 @@
 <html lang="en" id="doc">
   <head>
     <header style="float: right;">
-      <a class="link" href="https://github.com/Pasodokn/gst-imapsync" target="_blank">gst-imapsync</a> || 
+      <a class="link" href="https://github.com/Pasodokn/imapsync-helper" target="_blank">gst-imapsync</a> || 
       <a class="link" href="https://github.com/Pasodokn/" target="_blank">Pasodokn</a>
     </header>
     <title>IMAPSync Helper</title>
-    <meta name="description" content="A tool to generate the command for an IMAP sync">
+    <meta name="description" content="A tool to generate the imapsync command">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="public/css/style.css">
-    <script src="public/js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
   </head>
   <body>

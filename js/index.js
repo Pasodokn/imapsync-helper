@@ -85,25 +85,6 @@ function updateCommand() {
 function updateResult(command) {
   document.getElementById('result').value = "imapsync" + command;
   $(function() {
-    $("#runtest").show(500);
+    //$("#runtest").show(500);
   });
 };
-
-function syncRequest(str) {
-  let response;
-  if (str.length == 0) {
-      document.getElementById("log").innerHTML = "";
-      return;
-  } else {
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-              response = this.responseText.split("...");
-              document.getElementById("logtime").innerHTML = response[0];
-              document.getElementById("log").innerHTML = response[1];
-          }
-      };
-      xmlhttp.open("GET", "sync.php?request=" + str, true);
-      xmlhttp.send();
-  }
-}
